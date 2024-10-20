@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Información sobre CSS</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f0f4f8;
+        }
+        .hero {
+            background-color: #9DB2BF;
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .content {
+            padding: 40px 20px;
+        }
+        .card {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">PROWEB</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="pagina1.html">HTML</a></li>
+                <li class="nav-item"><a class="nav-link" href="pagina2.html">CSS</a></li>
+                <li class="nav-item"><a class="nav-link" href="pagina3.html">JavaScript</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="hero">
+        <h1 class="display-4">Introducción a CSS</h1>
+    </div>
+
+    <div class="content container">
+        <h2>¿Qué es CSS?</h2>
+        <p>CSS, o Hojas de Estilo en Cascada, es un lenguaje utilizado para describir la presentación de un documento HTML. Permite estilizar y diseñar páginas web de manera efectiva.</p>
+        <p>Con CSS, se pueden definir colores, fuentes, espaciado y diseño, lo que permite una mayor flexibilidad en la apariencia de las páginas web. Esto ayuda a separar el contenido de la presentación.</p>
+        <p>CSS3, la última versión, incluye nuevas características como animaciones y transiciones, que mejoran la experiencia del usuario y hacen las páginas más interactivas.</p>
+
+        <div class="card">
+            <img src="Imagenes/Logo_CSS.png" class="card-img-top" alt="CSS Image 1">
+            <div class="card-body">
+                <h5 class="card-title">Selectores CSS</h5>
+                <p class="card-text">Los selectores permiten aplicar estilos a elementos específicos. Existen varios tipos de selectores, como selectores de clase, ID y de tipo.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="Imagenes/CSS_code.png" class="card-img-top" alt="CSS Image 2">
+            <div class="card-body">
+                <h5 class="card-title">Box Model</h5>
+                <p class="card-text">El modelo de caja es fundamental en CSS y define cómo se estructura el espacio alrededor de los elementos, incluyendo márgenes, bordes, rellenos y el contenido.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="Imagenes/Nestyle.png" class="card-img-top" alt="CSS Image 3">
+            <div class="card-body">
+                <h5 class="card-title">Flexbox y Grid</h5>
+                <p class="card-text">Flexbox y CSS Grid son dos técnicas modernas para crear layouts responsivos y adaptables, facilitando la distribución de espacio entre elementos en una página web.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
